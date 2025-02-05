@@ -19,37 +19,65 @@ const menuItems = [
   {
     title: "Хэрэглэгч",
     icon: <FaUsers className="size-7" />,
-    route: '/'
+    route: '/',
+    subItems: [
+    ],
+  },
+ 
+  {
+    title: "Категори",
+    icon: <FaCog className="size-7" />,
+    route: '/category',
+    subItems: [
+     
+    ],
   },
   {
     title: "Контент менежер",
     icon: <FaVideo className="size-7" />,
-    route: '/manage'
+    route: '/content-management',
+    subItems: [
+      "Конентийн сэдэв",
+      "Контентийн бүлгүүд"
+    ],
   },
   {
-    title: "Streaming & Encoding Control",
-    icon: <FaCog className="size-7" />,
-    route: '/stream'
-  },
-  {
-    title: "Analytics & Reporting",
+    title: "Хянах самбар",
     icon: <FaChartBar className="size-7" />,
-    route: '/analize'
+    route: '/dashboard',
+    subItems: [
+      "User Roles & Permissions",
+      "Account Management",
+      "Subscription & Payment Management",
+      "Ban & Moderation Tools",
+    ],
   },
   {
-    title: "Monetization & Revenue",
+    title: "Төлбөр",
     icon: <FaDollarSign className="size-7" />,
-    route: '/money'
+    route: '/payment',
+    subItems: [
+      "User Roles & Permissions",
+      "Account Management",
+      "Subscription & Payment Management",
+      "Ban & Moderation Tools",
+    ],
   },
   {
-    title: "Security & Compliance",
+    title: "Системийн админтай холбогдох",
     icon: <FaShieldAlt className="size-7" />,
-    route: '/secure'
+    route: '/secure',
+    subItems: [
+      "User Roles & Permissions",
+      "Account Management",
+      "Subscription & Payment Management",
+      "Ban & Moderation Tools",
+    ],
   }
 
 ];
 
-const Sidebar = () => {
+const Sidebar = ({theme}) => {
   const [isOpen, setIsOpen] = useState(true);
 
   // Toggle Sidebar (for mobile)
@@ -94,9 +122,9 @@ const Sidebar = () => {
       {/* Sidebar */}
 
       <div
-        className={`fixed top-0 left-0 h-full bg-gray-900  text-white items-center justify-center shadow-lg transition-all duration-350 ${
+        className={`fixed backdrop-blur-xl top-0 left-0 h-full bg-blend-normal  text-white items-center justify-center shadow-lg transition-all duration-350 ${
           isOpen ? "translate-x-0" : "-translate-x-full"
-        } md:translate-x-0 md:relative ${active ? "w-80 " : " w-20"}`}
+        } md:translate-x-0 md:relative ${active ? "w-80 " : " w-20"} ${theme ? "bg-slate-900 text-white" : "text-white bg-slate-700"}`}
       >
         <div
           className={`"w-full items-center text-2xl p-5 font-bold  flex ${
@@ -147,7 +175,14 @@ const Sidebar = () => {
                     ? "max-h-96 opacity-100"
                     : "max-h-0 opacity-0"
                 }`}
-              ></ul>
+              >
+          {menu.subItems.map((subItem, subIndex) => (
+                  <li key={subIndex} className="p-2 hover:text-blue-400 cursor-pointer">
+                    {subItem}
+                  </li>
+                ))}
+
+              </ul>
             </Link>
           ))}
         </div>

@@ -8,6 +8,7 @@ import UserManagement from './pages/UserManagement';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import HomeLayout from './pages/HomeLayout';
 import ContentManagement from './components/ContentManagement';
+import ContentTable from './components/ContentTable';
 const router = createBrowserRouter([
     { path: "/",
       element: <HomeLayout />,
@@ -17,7 +18,11 @@ const router = createBrowserRouter([
           element: <UserManagement />,
         },
         {
-          path: "/manage",
+          path: "/category",
+          element: <ContentTable/>,
+        },
+        {
+          path: "/content-management",
           element: <ContentManagement />,
         },
         

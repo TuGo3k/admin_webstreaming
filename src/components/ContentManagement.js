@@ -1,76 +1,40 @@
 import { useState } from "react";
-import {Button}  from "../components/Button";
-import { Tabs,TabsList, TabsTrigger, TabsContent}  from "../components/Tabs";
-import { Card, CardContent} from '../components/Card'
-
+import { Button } from "../components/Button";
+import { Tabs, TabsList, TabsTrigger, TabsContent } from "../components/Tabs";
+import { Card, CardContent } from "../components/Card";
+import { Link } from "react-router-dom";
+import ContentTable from "./ContentTable";
+import contentCategories from "../data/Content.json";
 export default function ContentManagement() {
-  const [liveStatus, setLiveStatus] = useState("Stopped");
-  const vodLibrary = ["Video 1", "Video 2", "Video 3"];
-  const categories = ["Horror", "Comedy", "Documentary"];
-  const featuredContent = ["Featured 1", "Featured 2"];
+  const [category, setCategory] = useState('')
 
   return (
-    <div className="p-6 max-w-4xl mx-auto">
-      <Tabs defaultValue="live">
-        <TabsList className="flex space-x-2">
-          <TabsTrigger value="live">Live Stream</TabsTrigger>
-          <TabsTrigger value="vod">VOD Library</TabsTrigger>
-          <TabsTrigger value="categories">Categories & Tags</TabsTrigger>
-          <TabsTrigger value="featured">Featured Content</TabsTrigger>
-        </TabsList>
-
-        <TabsContent value="live">
-          <Card>
-            <CardContent className="p-4">
-              <p className="text-lg font-semibold">Live Stream Management</p>
-              <p>Status: {liveStatus}</p>
-              <div className="mt-2 space-x-2">
-                <Button onClick={() => setLiveStatus("Live")}>Start</Button>
-                <Button onClick={() => setLiveStatus("Stopped")} variant="destructive">Stop</Button>
-              </div>
-            </CardContent>
-          </Card>
-        </TabsContent>
-
-        <TabsContent value="vod">
-          <Card>
-            <CardContent className="p-4">
-              <p className="text-lg font-semibold">Video On Demand Library</p>
-              <ul className="list-disc pl-5">
-                {vodLibrary.map((video, index) => (
-                  <li key={index}>{video}</li>
-                ))}
-              </ul>
-            </CardContent>
-          </Card>
-        </TabsContent>
-
-        <TabsContent value="categories">
-          <Card>
-            <CardContent className="p-4">
-              <p className="text-lg font-semibold">Content Categories & Tags</p>
-              <ul className="list-disc pl-5">
-                {categories.map((category, index) => (
-                  <li key={index}>{category}</li>
-                ))}
-              </ul>
-            </CardContent>
-          </Card>
-        </TabsContent>
-
-        <TabsContent value="featured">
-          <Card>
-            <CardContent className="p-4">
-              <p className="text-lg font-semibold">Featured & Recommended Content</p>
-              <ul className="list-disc pl-5">
-                {featuredContent.map((content, index) => (
-                  <li key={index}>{content}</li>
-                ))}
-              </ul>
-            </CardContent>
-          </Card>
-        </TabsContent>
-      </Tabs>
+    <div className="px-6 pt-6 pb-20 h-full mx-auto flex flex-wrap gap-2 bg-scroll overflow-scroll ">
+      {/* {contentCategories.map((el, index) => (
+        <Link key={index} onClick={() => setCategory(el.title)} className={`border-2 rounded-full p-2 border-slate-200 hover:bg-slate-400  hover:text-white ${category === el.title ? "bg-slate-700 text-white" : "bg-white text-black"} `}>{el.title}</Link>
+      ))} */}
+      <div className="w-full  ">
+        <table className="w-full ">
+        <thead className="sticky top-0 z-10 overflow-hidden"> 
+            <tr className="bg-gray-200">
+              <th className="border border-gray-300 px-4 py-2 text-left">id</th>
+              <th className="border border-gray-300 px-4 py-2 text-left">Category</th>
+              <th className="border border-gray-300 px-4 py-2 text-left">thumbnail</th>
+              <th className="border border-gray-300 px-4 py-2 text-left">description</th>
+            </tr>
+          </thead>
+          <tbody className="">
+            {contentCategories.map((el, index) => (
+              <tr key={el.id} className="hover:bg-gray-100">
+                <td className="border border-gray-300 px-4 py-2">{index + 1}</td>
+                <td className="border border-gray-300 px-4 py-2">{el.title}</td>
+                <td className="border border-gray-300 px-4 py-2"><div className="size-4"><img className="w-full h-full object-cover" src={el.image}/></div></td>
+                <td className="border border-gray-300 px-4 py-2">{el.description}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
     </div>
   );
 }

@@ -1,0 +1,28 @@
+[
+    { "id": 1, "title": "Кино шинжлэх ухаан", "image": "../Images/thumbnail.jpeg", "description": "Шинжлэх ухааны сонирхолтой баримтууд." },
+    { "id": 2, "title": "Дэлхийн суутнууд", "image": "/images/genius.jpg", "description": "Дэлхийн суутнуудын амьдрал, нээлтүүд." },
+    { "id": 3, "title": "100 секунд", "image": "/images/100seconds.jpg", "description": "Чухал мэдээллийг 100 секундэд хүргэнэ." },
+    { "id": 4, "title": "Дээлтэй аялал", "image": "/images/travel.jpg", "description": "Монголын түүх соёлтой аялал." },
+    { "id": 5, "title": "Дэлхийн дуу хоолой", "image": "/images/voice.jpg", "description": "Дэлхийн өнцөг булан бүрээс мэдээ." },
+    { "id": 6, "title": "Брэндийн амжилтын нууц", "image": "/images/brands.jpg", "description": "Амжилттай брэндүүдийн нууцууд." },
+    { "id": 7, "title": "Хоосон хүний хоёр чих", "image": "/images/philosophy.jpg", "description": "Сэтгэлзүй, философийн талаар." },
+    { "id": 8, "title": "Хэрхэн зуу наслах вэ?", "image": "/images/longevity.jpg", "description": "Эрүүл амьдралын нууцууд." },
+    { "id": 9, "title": "Бидний мэдэхгүй дэлхий", "image": "/images/mystery.jpg", "description": "Ертөнцийн нууцлаг түүхүүд." },
+    { "id": 10, "title": "Хотын түүх", "image": "/images/city.jpg", "description": "Дэлхийн томоохон хотуудын түүх." },
+    { "id": 11, "title": "Топ 10", "image": "/images/top10.jpg", "description": "Шилдэг 10 жагсаалт." },
+    { "id": 12, "title": "Аадар анир", "image": "/images/music.jpg", "description": "Дуу хөгжим, хөгжмийн урлаг." },
+    { "id": 13, "title": "Зүрх сэтгэлийн боловсрол", "image": "/images/heart.jpg", "description": "Сэтгэлзүйн боловсрол, харилцаа." },
+    { "id": 14, "title": "Археологийн нууцууд", "image": "/images/archeology.jpg", "description": "Археологийн олдворуудын тухай." },
+    { "id": 15, "title": "Аниме", "image": "/images/anime.jpg", "description": "Аниме кино, манга." },
+    { "id": 16, "title": "Одон орон", "image": "/images/space.jpg", "description": "Одон орны нууцууд, ертөнцийн ууд." },
+    { "id": 17, "title": "Вирус бидний амьдралд", "image": "/images/virus.jpg", "description": "Вирус, бактери бидний эргэн тойронд." },
+    { "id": 18, "title": "Хүннүгийн түүх", "image": "/images/hunnu.jpg", "description": "Хүннү гүрний түүх." },
+    { "id": 19, "title": "Орон орны зоог", "image": "/images/food.jpg", "description": "Дэлхийн хоолны соёл, амтлаг хоолнууд." },
+    { "id": 20, "title": "Цаг хугацааны аялал", "image": "/images/time_travel.jpg", "description": "Түүхэн үйл явдлуудын судалгаа." },
+    { "id": 21, "title": "Хэргийн товч", "image": "/images/crime.jpg", "description": "Гэмт хэргийн бодит түүхүүд." },
+    { "id": 22, "title": "Уран зураг", "image": "/images/art.jpg", "description": "Дэлхийн алдартай уран зургууд." },
+    { "id": 23, "title": "Кино түүх", "image": "/images/cinema.jpg", "description": "Кино урлагийн түүх, хөгжил." },
+    { "id": 24, "title": "Эрчүүдийн эрүүл мэнд", "image": "/images/men_health.jpg", "description": "Эрүүл мэндийн зөвлөгөө." },
+    { "id": 25, "title": "Нууц товчооны нууцууд", "image": "/images/secret_history.jpg", "description": "Монголын түүхийн нууцууд." }
+  ]
+  
