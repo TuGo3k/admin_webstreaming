@@ -1,0 +1,207 @@
+[
+  {
+    "id": 1,
+    "title": "Dark Secrets",
+    "description": "A thrilling series uncovering the mysteries hidden in a small town.",
+    "genre": "Mystery, Thriller",
+    "totalEpisodes": 4,
+    "episodes": [
+      {
+        "episodeNumber": 1,
+        "title": "The Awakening",
+        "description": "A strange occurrence shakes the town, leaving everyone on edge.",
+        "duration": "45m",
+        "releaseDate": "2024-01-10",
+        "image": "https://example.com/dark-secrets-ep1.jpg"
+      },
+      {
+        "episodeNumber": 2,
+        "title": "Buried Truths",
+        "description": "An old case resurfaces, revealing shocking connections.",
+        "duration": "48m",
+        "releaseDate": "2024-01-17",
+        "image": "https://example.com/dark-secrets-ep2.jpg"
+      },
+      {
+        "episodeNumber": 3,
+        "title": "Whispers in the Dark",
+        "description": "A mysterious voice leads to an abandoned house with dark secrets.",
+        "duration": "50m",
+        "releaseDate": "2024-01-24",
+        "image": "https://example.com/dark-secrets-ep3.jpg"
+      },
+      {
+        "episodeNumber": 4,
+        "title": "The Final Piece",
+        "description": "The puzzle pieces fall into place, exposing the mastermind behind the chaos.",
+        "duration": "52m",
+        "releaseDate": "2024-01-31",
+        "image": "https://example.com/dark-secrets-ep4.jpg"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Echoes of the Past",
+    "description": "A detective follows a series of cryptic messages that lead to a hidden conspiracy.",
+    "genre": "Crime, Thriller",
+    "totalEpisodes": 4,
+    "episodes": [
+      {
+        "episodeNumber": 1,
+        "title": "The First Clue",
+        "description": "A mysterious letter arrives, pointing to a long-forgotten crime.",
+        "duration": "46m",
+        "releaseDate": "2024-02-10",
+        "image": "https://example.com/echoes-ep1.jpg"
+      },
+      {
+        "episodeNumber": 2,
+        "title": "Shattered Illusions",
+        "description": "New evidence suggests that nothing is as it seems.",
+        "duration": "49m",
+        "releaseDate": "2024-02-17",
+        "image": "https://example.com/echoes-ep2.jpg"
+      },
+      {
+        "episodeNumber": 3,
+        "title": "Deception's Web",
+        "description": "The detective discovers a hidden organization pulling the strings.",
+        "duration": "47m",
+        "releaseDate": "2024-02-24",
+        "image": "https://example.com/echoes-ep3.jpg"
+      },
+      {
+        "episodeNumber": 4,
+        "title": "Truth or Consequences",
+        "description": "The case reaches a shocking conclusion that changes everything.",
+        "duration": "51m",
+        "releaseDate": "2024-03-01",
+        "image": "https://example.com/echoes-ep4.jpg"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Shadows of Fate",
+    "description": "A psychological thriller about a journalist uncovering dark secrets in a cursed town.",
+    "genre": "Psychological Thriller, Mystery",
+    "totalEpisodes": 4,
+    "episodes": [
+      {
+        "episodeNumber": 1,
+        "title": "Lost in Time",
+        "description": "A journalist moves to a new town and starts experiencing strange visions.",
+        "duration": "44m",
+        "releaseDate": "2024-03-10",
+        "image": "https://example.com/shadows-ep1.jpg"
+      },
+      {
+        "episodeNumber": 2,
+        "title": "The Vanishing",
+        "description": "A resident disappears without a trace, leaving behind a cryptic diary.",
+        "duration": "48m",
+        "releaseDate": "2024-03-17",
+        "image": "https://example.com/shadows-ep2.jpg"
+      },
+      {
+        "episodeNumber": 3,
+        "title": "The Haunted Truth",
+        "description": "Supernatural forces seem to be at play, or is it something even darker?",
+        "duration": "50m",
+        "releaseDate": "2024-03-24",
+        "image": "https://example.com/shadows-ep3.jpg"
+      },
+      {
+        "episodeNumber": 4,
+        "title": "Breaking the Cycle",
+        "description": "The journalist must make a choice: expose the truth or become part of it.",
+        "duration": "53m",
+        "releaseDate": "2024-03-31",
+        "image": "https://example.com/shadows-ep4.jpg"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Shadows of Fate",
+    "description": "A psychological thriller about a journalist uncovering dark secrets in a cursed town.",
+    "genre": "Psychological Thriller, Mystery",
+    "totalEpisodes": 4,
+    "episodes": [
+      {
+        "episodeNumber": 1,
+        "title": "Lost in Time",
+        "description": "A journalist moves to a new town and starts experiencing strange visions.",
+        "duration": "44m",
+        "releaseDate": "2024-03-10",
+        "image": "https://example.com/shadows-ep1.jpg"
+      },
+      {
+        "episodeNumber": 2,
+        "title": "The Vanishing",
+        "description": "A resident disappears without a trace, leaving behind a cryptic diary.",
+        "duration": "48m",
+        "releaseDate": "2024-03-17",
+        "image": "https://example.com/shadows-ep2.jpg"
+      },
+      {
+        "episodeNumber": 3,
+        "title": "The Haunted Truth",
+        "description": "Supernatural forces seem to be at play, or is it something even darker?",
+        "duration": "50m",
+        "releaseDate": "2024-03-24",
+        "image": "https://example.com/shadows-ep3.jpg"
+      },
+      {
+        "episodeNumber": 4,
+        "title": "Breaking the Cycle",
+        "description": "The journalist must make a choice: expose the truth or become part of it.",
+        "duration": "53m",
+        "releaseDate": "2024-03-31",
+        "image": "https://example.com/shadows-ep4.jpg"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Shadows of Fate",
+    "description": "A psychological thriller about a journalist uncovering dark secrets in a cursed town.",
+    "genre": "Psychological Thriller, Mystery",
+    "totalEpisodes": 4,
+    "episodes": [
+      {
+        "episodeNumber": 1,
+        "title": "Lost in Time",
+        "description": "A journalist moves to a new town and starts experiencing strange visions.",
+        "duration": "44m",
+        "releaseDate": "2024-03-10",
+        "image": "https://example.com/shadows-ep1.jpg"
+      },
+      {
+        "episodeNumber": 2,
+        "title": "The Vanishing",
+        "description": "A resident disappears without a trace, leaving behind a cryptic diary.",
+        "duration": "48m",
+        "releaseDate": "2024-03-17",
+        "image": "https://example.com/shadows-ep2.jpg"
+      },
+      {
+        "episodeNumber": 3,
+        "title": "The Haunted Truth",
+        "description": "Supernatural forces seem to be at play, or is it something even darker?",
+        "duration": "50m",
+        "releaseDate": "2024-03-24",
+        "image": "https://example.com/shadows-ep3.jpg"
+      },
+      {
+        "episodeNumber": 4,
+        "title": "Breaking the Cycle",
+        "description": "The journalist must make a choice: expose the truth or become part of it.",
+        "duration": "53m",
+        "releaseDate": "2024-03-31",
+        "image": "https://example.com/shadows-ep4.jpg"
+      }
+    ]
+  }
+]

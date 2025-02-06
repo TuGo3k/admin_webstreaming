@@ -11,7 +11,7 @@ import bg6 from "../assets/images/chillbg6.jpg"
 import bg7 from "../assets/images/chillbg7.jpg"
 import {useState, useEffect} from "react"
 
-const HomeLayout = () => {
+const HomeLayout = ({toggleSubItem, setActiveSubItem, activeSubItem }) => {
   const [theme, setTheme] = useState(false)
   const backgroundImages = [bg, bg2, bg3, bg4, bg5, bg6, bg7]
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -31,7 +31,7 @@ const HomeLayout = () => {
     >
       {/* <img className={`"h-screen w-full bg-cover bg-center transition-all duration-1000 absolute top-0 left-0"`} src={backgroundImages[currentIndex]}/> */}
       <div className="  h-full">
-        <Sidebar theme={theme}/>
+        <Sidebar theme={theme} toggleSubItem={toggleSubItem} setActiveSubItem={setActiveSubItem} activeSubItem={activeSubItem}/>
       </div>
 
       <div className="w-full relative">
