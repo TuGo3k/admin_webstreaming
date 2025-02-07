@@ -16,7 +16,7 @@ export default function ContentTable() {
         <table className="w-full border-collapse border border-gray-300">
           <thead>
             <tr className="bg-gray-200">
-              <th className="border border-gray-300 px-4 py-2 text-left">#</th>
+              <th className="border border-gray-300 px-4 w-5 py-2 text-left">№</th>
               <th className="border border-gray-300 px-4 py-2 text-left">Category Name</th>
               <th className="border border-gray-300 px-4 py-2 text-left">Total Videos</th>
             </tr>

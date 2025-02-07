@@ -17,15 +17,15 @@ export default function ContentManagement({toggleSubItem, setActiveSubItem, acti
         <table className="w-full ">
           <thead className="sticky top-0 z-10 overflow-hidden">
             <tr className="bg-gray-200">
-              <th className="border border-gray-300 px-4 py-2 text-left">id</th>
+              <th className="border border-gray-300 w-5 px-4 py-2 text-left">id</th>
               <th className="border border-gray-300 px-4 py-2 text-left">
-                Category
+                Категори
+              </th>
+              <th className="border flex justify-center border-gray-300 px-4 py-2 text-left">
+                Зураг
               </th>
               <th className="border border-gray-300 px-4 py-2 text-left">
-                thumbnail
-              </th>
-              <th className="border border-gray-300 px-4 py-2 text-left">
-                description
+                Тайлбар
               </th>
             </tr>
           </thead>
@@ -44,7 +44,7 @@ export default function ContentManagement({toggleSubItem, setActiveSubItem, acti
                     {el.title}
                   </Link>
                 </td>
-                <td className="border border-gray-300 px-4 py-2">
+                <td className="border flex justify-center border-gray-300 px-4 py-2">
                   <div className="w-16 h-16">
                     <img
                       className="w-full h-full object-cover"
